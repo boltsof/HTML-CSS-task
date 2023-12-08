@@ -1,0 +1,207 @@
+.header-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.header-info_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.page_name-ru{
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.page_name-en{
+    color: #57463A;
+    text-align: center;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.features > li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features h2{
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.features h4{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.biography-block{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.biography_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.biography_inner h2{
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.biography_inner h2 > p{
+    margin-top: 20px;
+    color: #000;
+    /* Text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.biography_inner > span{
+    color: #000;
+    /* Text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.filosophy-block{
+    text-align: end;
+    color: #323232;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.smionas{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.smionas > .description{
+    color: #323232;
+    /* Text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.smionas .slider{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.application{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.application button{
+    color:var(--info-text-color);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+    padding: 18px 52px;
+    background-color: #A1B29F;
+}
+
+@media(max-width:820px){
+    .biography-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+@media(max-width:600px){
+  .biography-block .biography_inner{
+    padding: 0 30px;
+  } 
+  
+  .header-content .header-info_content{
+    align-items: start;
+    padding: 0 30px;
+  }
+
+  .header-content .header-info_content > li{
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .biography-block img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .smionas .description{
+    padding: 0 30px;
+  }
+
+  .filosophy-block{
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  .features{
+    justify-content: flex-start;
+    padding: 0 30px;
+  }
+
+  .features > li{
+    text-align: start;
+  }
+}
+
+
+

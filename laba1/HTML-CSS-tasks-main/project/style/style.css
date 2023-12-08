@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src:  local('Open Sans')
+        url(../fonts/OpenSans/static/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Tenor Sans', sans-serif;
+    src:  url(../fonts/TenorSans/TenorSans-Regular.ttf) format('truetype');
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+body {
+    background: rgb(243,239,234);
+}
+
+.nav-bar{
+
+    width: 1440px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.nav-bar-li{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-items{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-links{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #323232;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    list-style: none;
+}
+
+.nav-bar-logo{
+    list-style: none;
+}
+
+/* --ПРЕВЬЮ-- */
+
+.preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/majid-gheidarlou-LuI6euS7Dno-unsplash\ 1.jpg);
+    height: 600px;    
+}
+
+.preview-container{
+    padding-top: 200px;
+    width: 1000px;
+
+
+}
+.preview-text{
+
+    margin: 0;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #F6F6F6;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+}
+.preview-button{
+    background: #F6F6F6;
+    margin-top: 150px;
+    margin-left: 350px;
+    width: 328px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #4C6D77;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+
+/* Блок с работами */
+
+.works{
+
+}
+
+.works-text{
+    color: #57463A;
+
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    ine-height: 150%; /* 72px */
+}

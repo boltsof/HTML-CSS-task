@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет Магазин - Доставка Пиццы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick/slick-theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css"> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css"> 
+</head>
+<body>
+    <header>
+        <div class="header_inner">
+            <div class="top_inner" id="top-header_block">
+                <div class="left_inner">
+                    <img src="./assets/icons/logotype.svg" width="80" height="60" alt="logotype">
+                    <div class="service-information_block">
+                        <h2 class="service-information_header">Доставка пасты <span>Казань</span></h2>
+                        <ul class="service-information_list">
+                            <li class="service-information_item">
+                                <img src="./assets/icons/yandex_food.svg" width="18" height="18" alt="yandex_food">
+                                <span>Яндекс Еда</span>
+                                <span class="point"></span>
+                                <span>4.8</span>
+                                <img src="./assets/icons/star.svg" width="14" height="16" alt="star"> 
+                            </li>
+                            <li class="service-information_item">
+                                <span>Время доставки</span>
+                                <span class="point"></span>
+                                <span>от 31 мин</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_inner">
+                    <button class="order-call_button">Заказать звонок</button>
+                    <h2 class="phone-number_info">8 499 391-84-49</h2>
+                    <button class="backet_button mobile" >Корзина | <span>0</span></button>
+                    <button class="burger-menu_button" id="menu-burger" type="button" title="menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </button>
+                </div>
+            </div>
+            <div class="bottom_inner">
+                <ul class="header-links_list">
+                    <li class="link_item" style="display: none;" id="logotype-bottom-header">
+                        <img src="./assets/icons/logotype.svg" width="70" height="50" alt="logotype">
+                    </li>
+                    <li class="link_item">
+                        <button class="pizza-scroll" type="button" title="Пицца">Пицца</button>
+                    </li>
+                    <li class="link_item">
+                        <button class="dessert-scroll" type="button" title="Дессерты">Дессерты</button>
+                    </li>
+                    <li class="link_item">
+                        <button class="drinks-scroll" type="button" title="Напитки">Напитки</button>
+                    </li>
+                    <li class="link_item">
+                        <a href="./Services.html">Акции</a>
+                    </li>
+                    <li class="link_item">
+                        <a href="./About.html">Контакты</a>
+                    </li>
+                    <li class="link_item phone-number">
+                        <h2 class="phone-number_info mobile">8 499 391-84-49</h2>
+                    </li>
+                    <li class="link_item order-call">
+                        <button class="order-call_button mobile">Заказать звонок</button>
+                    </li>
+                </ul>
+                <a href="./Basket.html" id="backet-button_global" class="backet_button desktop">Корзина | <span>0</span></a>
+            </div>
+        </div>
+    </header>
+    <main>
+       
+      
+
+       <section class="food_section pizzas_section" id="pizza-scroll_block">
+            <h1>Пиццы</h1>
+            <ul class="food_list pizzas_list" id="pizzas_list"></ul>
+       </section>
+
+        <section class="food_section" id="drinks-scroll_block">
+            <h1>Напитки</h1>
+            <ul class="food_list" id="drinks_list"></ul>
+        </section>
+
+        <section class="food_section" id="desserts-scroll_block">
+            <h1>Дессерты</h1>
+            <ul class="food_list" id="desserts_list"></ul>
+        </section>
+
+        <section class="services_section">
+            <h1 class="services_header">Наши <span>акции</span></h1>
+            <ul class="services_list">
+                <li class="services_item">
+                    <img src="./assets/images/services/cake.png" width="520" height="380" alt="service">
+                </li>
+                <li class="services_item group-services">
+                    <img src="./assets/images/services/cake.png" width="240" height="170" alt="service">
+                    <img src="./assets/images/services/cake.png" width="240" height="170" alt="service">
+                    <img src="./assets/images/services/cake.png" width="240" height="170" alt="service">
+                    <img src="./assets/images/services/cake.png" width="240" height="170" alt="service">
+                </li>
+            </ul>
+            <a href="#" class="open-services_link">Все акции</a>
+        </section>
+
+        <section class="delivery_section ignore">
+            <div class="delivery_block">
+                <h1 class="delivery_header">Оплата и доставка</h1>
+                <div class="delivery-block_inner">
+                    <ul class="deliver-steps_list">
+                        <li class="delivery-steps_item">
+                            <div class="circle">
+                                <img src="./assets/images/delivery/shop.svg" width="44" height="44">
+                            </div>
+                            <div class="delivery-steps_inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        </li>
+                        <li class="delivery-steps_item">
+                            <div class="circle">
+                                <img src="./assets/images/delivery/drive.svg" width="44" height="44">
+                            </div>
+                            <div class="delivery-steps_inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        </li>
+                        <li class="delivery-steps_item">
+                            <div class="circle">
+                                <img src="./assets/images/delivery/pc.svg" width="44" height="44">
+                            </div>
+                            <div class="delivery-steps_inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        </li>
+                        <li class="delivery-steps_item">
+                            <div class="circle">
+                                <img src="./assets/images/delivery/time.svg" width="44" height="44">
+                            </div>
+                            <div class="delivery-steps_inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        </li>
+                    </ul>
+
+                    <iframe style="pointer-events: none;" class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Afe91eae88331d70edcb5c834c549d82d66de7176fe7ff2de088d4b46d10b958e&amp;source=constructor" width="944" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <div class="backet-block_modal">
+            <div class="backet-block_inner">
+                <img id="backet-image" width="300" height="300" src="http://remotepowerlink.ru:5005/Pizzas/%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F.jpg" class="backet-image">
+                <div class="backet-info_inner">
+                    <h2 class="backet-name" id="backet-name">Гавайская</h2>
+                    <div class="backet-info_list">
+                        <div  class="amount">Цена: <span id="backet-amount">500</span> руб</div>
+                        <div  class="mass">Масса: <span id="backet-mass">100г</span> г</div>
+                    </div>
+                    <div id="description" class="backet-description">Ветчина, маринованные огурчики, томаты, красный лук, чеснок, соус бургер, моцарелла, фирменный томатный соус</div>
+                    <div class="button-block_set">
+
+                    </div>
+                    
+                </div>
+                <button id="close-backet" class="close_button">
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_inner">
+            <div class="footer-info_block">
+                <img src="./assets/icons/logotype.svg" width="90" height="66" alt="logo">
+                <ul class="footer-header_list">
+                    <li class="footer-header_item">Калорийность и состав</li>
+                    <li class="footer-header_item">Правовая информация</li>
+                    <li class="footer-header_item">Мы в соцсетях</li>
+                </ul>
+                <div class="footer-link_inner">
+                    <ul class="footer-link_list">
+                        <li class="footer-link_item">YouTube</li>
+                        <li class="footer-link_item">Facebook</li>
+                        <li class="footer-link_item">Instagram</li>
+                        <li class="footer-link_item">ВКонтакте</li>
+                    </ul>
+                    <p class="address">Москва ул. Проспект <br> Вернадского 86В</p>
+                </div>
+                
+            </div>
+            <div class="footer-link_block">
+                <h2 class="footer-link_header">Остались вопросы? А мы всегда на связи:</h2>
+                <ul class="footer-link_list">
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/viber.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/skype.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/hz.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/telega.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/facebook.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                        <img src="./assets/images/footer/vk.svg" width="30" height="30">
+                    </li>
+                    <li class="footer-link_item">
+                       <h3>Написать нам</h3>
+                    </li>
+                </ul>
+                <h2 class="phone-number_info">8 499 391-84-49</h2>
+                <button type="button" class="order-call_button">Заказать звонок</button>
+
+            </div>
+            
+        </div>
+        <span>YaBao Все праав защищены © 2021</span>
+    </footer>
+</body>
+<script type="text/javascript" src="./scripts/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="./scripts/slick.js"></script>
+<script type="text/javascript" src="./scripts/main.js"></script>
+<script type="text/javascript" src="./scripts/index.js"></script>
+</html>

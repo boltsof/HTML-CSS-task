@@ -1,0 +1,33 @@
+.yandex-map{
+    width: 100%;
+}
+
+.about-info_section{
+   display: flex;
+   flex-direction: column; 
+   gap: 35px;
+}
+
+.about-info_section .about-phone-number_info{
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--inherit-text-color);
+}
+
+.about-info_section .about-address_inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-info_section .address{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.about-info_section .time{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
